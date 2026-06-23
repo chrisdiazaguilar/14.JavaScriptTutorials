@@ -43,16 +43,24 @@
 // console.log(selectedColors.length);
 
 // //Functions
-function greet(name) {
-    console.log('Hello ' + name);
- }
+// function greet(name) {
+//     console.log('Hello ' + name);
+//  }
 
-greet('Chris');
-greet('Jose');
+// greet('Chris');
+// greet('Jose');
 
-//Calculating value
-function square(number) {
-    return number * number;
-}
+// //Calculating value
+// function square(number) {
+//     return number * number;
+// }
 
-console.log(square(2));
+// console.log(square(2));
+
+// 
+
+let highIncome = true;
+let goodCreditScore = true;
+let eligibleForLoan = highIncome && goodCreditScore;
+
+console.log(eligibleForLoan);
